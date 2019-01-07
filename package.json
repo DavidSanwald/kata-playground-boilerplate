@@ -1,0 +1,17 @@
+{
+  "name": "kataplayground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js -q -x 'clear && node'",
+    "test": "jest --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "nodemon": "^1.18.9"
+  }
+}
